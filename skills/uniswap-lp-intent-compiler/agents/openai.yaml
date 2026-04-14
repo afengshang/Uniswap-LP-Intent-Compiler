@@ -1,0 +1,8 @@
+interface:
+  display_name: "Uniswap LP Intent Compiler"
+  short_description: "Natural-language X Layer LP skill for planning, opening, monitoring, and closing LPs"
+  brand_color: "#155EEF"
+  default_prompt: "Use $uniswap-lp-intent-compiler when the user says things like '我想组LP', '帮我加池子', '我想做LP', or asks to find, plan, open, monitor, reposition, or close a Uniswap LP on X Layer. Start with preflight, then discover candidates if needed, then compile the LP plan before any state-changing action."
+
+policy:
+  allow_implicit_invocation: true

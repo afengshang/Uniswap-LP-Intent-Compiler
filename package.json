@@ -1,0 +1,26 @@
+{
+  "name": "uniswap-lp-intent-compiler",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p skills/uniswap-lp-intent-compiler/tsconfig.json",
+    "typecheck": "tsc -p skills/uniswap-lp-intent-compiler/tsconfig.json --noEmit",
+    "test": "tsc -p skills/uniswap-lp-intent-compiler/tsconfig.json && node skills/uniswap-lp-intent-compiler/dist/self-check.js",
+    "lp": "node skills/uniswap-lp-intent-compiler/scripts/run-cli.mjs",
+    "preflight": "node skills/uniswap-lp-intent-compiler/scripts/run-cli.mjs preflight"
+  },
+  "dependencies": {
+    "@uniswap/sdk-core": "^7.8.0",
+    "@uniswap/v3-sdk": "^3.25.2",
+    "jsbi": "^4.3.2",
+    "viem": "^2.38.6",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}

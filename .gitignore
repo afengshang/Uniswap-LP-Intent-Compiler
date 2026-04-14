@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+CLAUDE.local.md
+.claude/settings.local.json
+!skills/uniswap-lp-intent-compiler/dist/
+!skills/uniswap-lp-intent-compiler/dist/**
