@@ -160,7 +160,7 @@ This project is delivered as a reusable agent skill package rather than a tradit
 这个项目的交付形态是可复用 agent skill 包，而不是传统的托管网页应用。
 
 - GitHub repository / GitHub 仓库地址:
-  - `<replace-with-your-github-repo-url>`
+  - (https://github.com/afengshang/Uniswap-LP-Intent-Compiler)
 - Primary delivery format / 主要交付形式:
   - reusable X Layer LP agent skill package / 可复用的 X Layer LP agent skill 包
 - Public web app / 公开网页地址:
